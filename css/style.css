@@ -1,0 +1,83 @@
+body {
+  background-color: beige;
+}
+.custom-section{
+    border-bottom : #1545c9;
+}
+/*footer*/
+footer {
+    background-color: #343a40; 
+    color: white; 
+    padding: 2rem 0; 
+  }
+  footer a {
+    color: white; 
+    text-decoration: none; 
+  }
+  footer a:hover {
+    color: #1545c9; 
+  }
+
+  .btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #000;  /* Warna teks hitam agar kontras */
+    background-color: #f5f5dc; /* Beige */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #e6e1c5; /* Beige lebih tua saat hover */
+}
+
+.btn i {
+    margin-left: 5px; 
+}
+
+/*jumbroton*/
+.custom-container {
+  background: linear-gradient(135deg, #4668c6, #1545c9); 
+  border-radius: 30px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+  position: relative;
+  overflow: hidden; 
+}
+
+/*fitur-fitur*/
+.feature-card {
+  width: 270px;
+  height: 270px;             
+  border-radius: 70%;        
+  border: 3px solid #007BFF; 
+  text-align: center;        
+  padding: 20px;             
+  margin: 15px;              
+  display: flex;             
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;    
+}
+
+.feature-card p {
+  font-size: 13px;   
+  line-height: 1.5;  
+  color: #555;      
+}
+
+.feature-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+
+
+/*login page*/
+@media (max-width: 768px) {
+  .form-signin {
+      margin-bottom: 30px;
+  }
+}
